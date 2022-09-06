@@ -15,7 +15,8 @@ function formSubmit(event) {
 
   if (email === "" || password === "") {
     alert("Fill in all fields!");
-  } else console.log(data);
-
-  event.currentTarget.reset();
+  } else {
+    console.log(data);
+    event.currentTarget.reset();
+  }
 }
